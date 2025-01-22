@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Ubuntu Bold";
+    src: url(../assets/fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family: "Ubuntu Medium";
+    src: url(../assets/fonts/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: "Ubuntu Regular";
+    src: url(../assets/fonts/Ubuntu-Regular.ttf);
+}
+body {
+    background-color: rgb(218, 213, 213);
+    display: flex;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    top: 15vh;
+    background-color: white;
+    height: 70vh;
+    width: 110vh;
+    padding: 5vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    height: 60vh;
+    width: 30vh;
+    background-image: url(../assets/images/bg-sidebar-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 4vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.one {
+    display: flex;
+    gap: 1.5vh;
+}
+.circle1 {
+    height: 4vh;
+    width: 4vh;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.text1  {
+    display: flex;
+    flex-direction: column;
+    gap: .2vh;
+}
+.text1 p:nth-child(1) {
+    color: rgb(186, 186, 252);
+    font-size: 1.8vh;
+    font-family: "Ubuntu Regular";
+}
+.text1 p:nth-child(2) {
+    color: white;
+    font-size: 1.8vh;
+    font-family: "Ubuntu Bold";
+    font-weight: bold;
+}
+.two {
+    display: flex;
+    gap: 1.5vh;
+}
+.circle2 {
+    height: 4vh;
+    width: 4vh;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.text2  {
+    display: flex;
+    flex-direction: column;
+    gap: .2vh;
+}
+.text2 p:nth-child(1) {
+    color: rgb(186, 186, 252);
+    font-size: 1.8vh;
+    font-family: "Ubuntu Regular";
+}
+.text2 p:nth-child(2) {
+    color: white;
+    font-size: 1.8vh;
+    font-family: "Ubuntu Bold";
+    font-weight: bold;
+}
+
+.three {
+    display: flex;
+    gap: 1.5vh;
+}
+.circle3 {
+    height: 4vh;
+    width: 4vh;
+    background-color: rgb(173, 228, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.text3  {
+    display: flex;
+    flex-direction: column;
+    gap: .2vh;
+}
+.text3 p:nth-child(1) {
+    color: rgb(186, 186, 252);
+    font-size: 1.8vh;
+    font-family: "Ubuntu Regular";
+}
+.text3 p:nth-child(2) {
+    color: white;
+    font-size: 1.8vh;
+    font-family: "Ubuntu Bold";
+    font-weight: bold;
+}
+
+.four {
+    display: flex;
+    gap: 1.5vh;
+}
+.circle4 {
+    height: 4vh;
+    width: 4vh;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.text4  {
+    display: flex;
+    flex-direction: column;
+    gap: .2vh;
+}
+.text4 p:nth-child(1) {
+    color: rgb(186, 186, 252);
+    font-size: 1.8vh;
+    font-family: "Ubuntu Regular";
+}
+.text4 p:nth-child(2) {
+    color: white;
+    font-size: 1.8vh;
+    font-family: "Ubuntu Bold";
+    font-weight: bold;
+}
+
+.right {
+    height: 60vh;
+    width: 68vh;
+    padding: 5vh 3vh 0 5vh;
+}
+h1 {
+    color: darkblue;
+    font-size: 3vh;
+    font-family: "Ubuntu Bold";
+}
+.right p {
+    color: rgb(112, 112, 255);
+    font-size: 1.8vh;
+    font-family: "Ubuntu Regular";
+    position: relative;
+    top: .3vh;
+}
+#onlineContainer {
+    height: 9vh;
+    width: 60vh;
+    border: 1px solid rgb(196,196,196);
+    border-radius: 10px;
+    position: relative;
+    top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vh 0 4vh;
+    align-items: center;
+}
+#onlineContainer div {
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+    align-items: center;
+}
+#largerContainer {
+    height: 9vh;
+    width: 60vh;
+    border: 1px solid rgb(196,196,196);
+    border-radius: 10px;
+    position: relative;
+    top: 7vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vh 0 4vh;
+    align-items: center;
+}
+#largerContainer div {
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+    align-items: center;
+}
+#customizableContainer {
+    height: 9vh;
+    width: 60vh;
+    border: 1px solid rgb(196,196,196);
+    border-radius: 10px;
+    position: relative;
+    top: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vh 0 4vh;
+    align-items: center;
+}
+#customizableContainer div {
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+    align-items: center;
+}
+input[type="checkbox" ]{
+    accent-color: darkblue;
+}
+span {
+    display: flex;
+    flex-direction: column;
+    gap: .5vh;
+}
+span p:nth-child(1) {
+    font-size: 2vh;
+    color: darkblue;
+    font-weight: bold;
+    font-family: "Ubuntu Bold";
+}
+span p:nth-child(2) {
+    font-size: 1.7vh;
+    color: rgb(112, 112, 255);
+    font-family: "Ubuntu Regular";
+}
+
+
+.control {
+    position: relative;
+    top: 16vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btn2 {
+    background-color: darkblue;
+    height: 6vh;
+    width: 12vh;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.8vh;
+}
+#btn2:hover {
+    cursor: pointer;
+    box-shadow: 6px 12px 12px rgb(63, 63, 218);
+
+}
+.btn1 a{
+    color: rgb(112, 112, 255);
+    text-decoration: none;
+    font-size: 1.8vh;
+}
